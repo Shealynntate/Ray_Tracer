@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ray_Tracer", "Ray_Tracer\Ray_Tracer.vcxproj", "{6F9031A2-9124-427A-AF2D-B61232298559}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsMathLib", "..\GraphicStaticLib\GraphicsMathLib\GraphicsMathLib.vcxproj", "{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,19 @@ Global
 		{6F9031A2-9124-427A-AF2D-B61232298559}.Release|x64.Build.0 = Release|x64
 		{6F9031A2-9124-427A-AF2D-B61232298559}.Release|x86.ActiveCfg = Release|Win32
 		{6F9031A2-9124-427A-AF2D-B61232298559}.Release|x86.Build.0 = Release|Win32
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Debug|x64.ActiveCfg = Debug|x64
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Debug|x64.Build.0 = Debug|x64
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Debug|x86.Build.0 = Debug|Win32
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Release|x64.ActiveCfg = Release|x64
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Release|x64.Build.0 = Release|x64
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Release|x86.ActiveCfg = Release|Win32
+		{6FC9F243-DD73-4AA5-8E3B-8BD68F19A915}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3880F555-58F0-429D-A034-FF80D5ABB16B}
 	EndGlobalSection
 EndGlobal

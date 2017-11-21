@@ -1,0 +1,49 @@
+#First line of the file
+
+size 1024 1024
+
+camera 0 0 0   0 0 -3  0 1 0  40
+output scene1.png
+pushTransform
+
+maxdepth 5
+
+directional  0.57735027 -0.57735027 -0.57735027 1 1 1
+directional -0.57735027  0.57735027  0.57735027 1 1 1
+
+popTransform
+pushTransform
+
+# Shiny White Material
+ambient 0.1 0.1 0.1
+diffuse 0.5 0.5 0.5
+specular 0.9 0.9 0.9
+#emission 0.9 0.9 0.9
+shininess 50
+
+sphere 0 0 -17 1
+
+popTransform
+pushTransform
+
+# Shiny Blue Material
+diffuse 0 0 1.0
+
+sphere 0 4 -17 1
+
+sphere 0 -4 -17 1
+
+sphere -4 0 -17 1
+
+sphere 4 0 -17 1
+
+sphere -2.83 2.83 -17 1
+
+sphere -2.83 -2.83 -17 1
+
+sphere 2.83 2.83 -17 1
+
+sphere 2.83 -2.83 -17 1
+
+
+#Last line of the file
